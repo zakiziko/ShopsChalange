@@ -1,5 +1,5 @@
 # ShopsChalange
-#chopsChalange, SpringBoot,Angular-4,Mongodb
+**SpringBoot,Angular-4,Mongodb**
 ---
 # Requirement
 ---
@@ -10,7 +10,7 @@
 #Steps to Setup
 ---
 **1.Clone the application**
-`git clone git@github.com:`
+`git clone https://github.com/zakiziko/ShopsChalange.git`
 
 **2.Build and run the backend app using maven**
 
@@ -31,6 +31,7 @@ mongoimport --db ShopeChalange --collection shops --drop --file shops.metadata.j
 mongorestore -d ShopeChalange -c shops shops.bson  
 ``` 
 *create mongodb 2dsphere index*
+
 the 2dsphere index will help us to find the nearest shop based on distance  
 
 `db.shops.createIndex( { location : "2dsphere" } )`
@@ -44,4 +45,4 @@ npm install
 npm start
 ```
 
-Angular Serve will run at port 4200
+Angular Serve will run at port http://localhost:4200
