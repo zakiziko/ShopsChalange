@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
     //declaration
     var disliked=[];
     var date = new Date();
-    var now = date.getHours();
+    var now = date.getHours()+""+date.getMinutes();
     disliked = JSON.parse(sessionStorage.getItem('disliked'));
    //free shops from disliked list in sessionStorage
     for(var i=0;i<disliked.length;i++){
@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit {
     //test if user signIn
     if(sessionStorage.getItem('user')){
       var now = new Date();
-      var timeOut = now.getHours()+2;
+      var timeOut = now.getHours()+2+""+now.getMinutes();
       console.log(timeOut);
       const shopeDesliked = {
         id : e.id,
