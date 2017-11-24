@@ -1,5 +1,5 @@
 # ShopsChalange
-**SpringBoot,Angular-4,Mongodb**
+SpringBoot,Angular-4,Mongodb
 ---
 # Requirement
 ---
@@ -46,3 +46,23 @@ npm start
 ```
 
 Angular Serve will run at port http://localhost:4200
+
+Sources and Documentation
+---
+https://docs.mongodb.com/manual/core/2dsphere/
+
+https://spring.io/guides/gs/accessing-data-mongodb/
+
+https://angular.io/guide/router
+
+https://www.npmjs.com
+
+https://cli.angular.io
+
+https://angular.io/api/router/CanActivate
+
+https://docs.mongodb.com/manual/reference/program/mongoimport/
+
+https://docs.mongodb.com/manual/reference/program/mongorestore/index.html
+
+https://docs.oracle.com/javase/7/docs/api/java/security/MessageDigest.html
